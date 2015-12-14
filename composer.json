@@ -1,0 +1,28 @@
+{
+    "name": "datto/json-rpc-simple",
+    "description": "Request-to-class mapping extension for JSON-RPC library",
+    "authors": [
+        {
+            "name": "Philipp Heckel",
+            "email": "ph@datto.com"
+        },
+        {
+            "name": "Chad Kosie",
+            "email": "ckosie@datto.com"
+        }
+    ],
+    "require": {
+        "datto/json-rpc": "~3.0",
+        "monolog/monolog": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+           "Datto\\JsonRpc\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Datto\\": "tests/"
+        }
+    }
+}

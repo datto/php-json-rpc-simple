@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<phpunit bootstrap="./vendor/autoload.php" colors="true">
+    <testsuites>
+        <testsuite name="json-rpc-simple">
+            <directory>./tests</directory>
+        </testsuite>
+    </testsuites>
+    <logging>
+        <log charset="UTF-8" target="coverage" type="coverage-html"/>
+    </logging>
+    <filter>
+        <blacklist>
+            <directory>vendor</directory>
+        </blacklist>
+    </filter>
+</phpunit>
