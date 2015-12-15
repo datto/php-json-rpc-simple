@@ -1,4 +1,4 @@
-# json-rpc-simple
+# JSON-RPC Simple Mapper
 
 This is a request-to-class mapping extension for the [php-json-rpc](https://github.com/datto/php-json-rpc) library. Its purpose is to eliminate the need to write manual mapping functions for API endpoints by providing an automatic mapping of the JSON-RPC `method` and `params` arguments to a matching PHP class, method and parameters.
 
