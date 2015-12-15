@@ -2,14 +2,6 @@
 
 This is a request-to-class mapping extension for the [php-json-rpc](https://github.com/datto/php-json-rpc) library. Its purpose is to eliminate the need to write manual mapping functions for API endpoints by providing an automatic mapping of the JSON-RPC `method` and `params` arguments to a matching PHP class, method and parameters.
 
-Requirements
-------------
-* PHP >= 5.3
-
-License
--------
-This package is released under an open-source license: [LGPL-3.0](https://www.gnu.org/licenses/lgpl-3.0.html)
-
 Examples
 --------
 First write an API end point:
@@ -45,14 +37,21 @@ $server = new Server(new Simple\Evaluator(new Simple\Mapper('Datto\\NodeAPI')));
 echo $server->reply('...');
 ```
 
+Requirements
+------------
+* PHP >= 5.3
+
 Installation
 ------------
 ```javascript
 "require": {
   "datto/json-rpc-simple": "~4.0"
 }
-```   
+```
+License
+-------
+This package is released under an open-source license: [LGPL-3.0](https://www.gnu.org/licenses/lgpl-3.0.html).
 
 Author
 ------
-[Philipp C. Heckel](https://github.com/binwiederhier)
+Written by [Philipp C. Heckel](https://github.com/binwiederhier).
