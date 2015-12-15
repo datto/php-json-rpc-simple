@@ -8,10 +8,6 @@
         {
             "name": "Philipp Heckel",
             "email": "ph@datto.com"
-        },
-        {
-            "name": "Chad Kosie",
-            "email": "ckosie@datto.com"
         }
     ],
     "require": {
