@@ -1,6 +1,9 @@
 {
     "name": "datto/json-rpc-simple",
     "description": "Request-to-class mapping extension for JSON-RPC library",
+    "type": "library",
+    "homepage": "http://www.datto.com",
+    "license": "LGPL-3.0",    
     "authors": [
         {
             "name": "Philipp Heckel",
