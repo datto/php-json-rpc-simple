@@ -64,7 +64,7 @@ class Evaluator implements JsonRpc\Evaluator
                 throw $e;
             } else {
                 // Send the original exception to the error log (useful for debugging purposes)
-                error_log($e);
+                error_log(strval($e));
                 // 'Rethrow' the exception, this ensures we don't reveal too much about the implementation
                 throw new JsonRpc\Exception\Evaluation($e->getMessage(), $e->getCode());
             }
